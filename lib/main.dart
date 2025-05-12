@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Mapa OSM',
-      theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.teal),
+      theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.blue),
       home: Scaffold(
         appBar: AppBar(title: Text('Localização no Mapa')),
         body: const MapView(),
